@@ -1,6 +1,7 @@
 package com.banking.system.vsbank.api.service;
 
 
+import com.banking.system.vsbank.api.constants.TransactionType;
 import com.banking.system.vsbank.api.entity.Transaction;
 import com.banking.system.vsbank.api.exception.ResourceNotFoundException;
 import com.banking.system.vsbank.api.repository.TransactionRepository;
