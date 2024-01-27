@@ -3,6 +3,10 @@ package com.banking.system.vsbank.api.service;
 import com.banking.system.vsbank.api.entity.Account;
 import com.banking.system.vsbank.api.entity.Client;
 import com.banking.system.vsbank.api.entity.Transaction;
+import com.banking.system.vsbank.api.exception.ResourceNotFoundException;
+import com.banking.system.vsbank.api.repository.AccountRepository;
+import com.banking.system.vsbank.api.repository.ClientRepository;
+import com.banking.system.vsbank.api.repository.TransactionRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.Assert;
@@ -74,6 +78,6 @@ public class TransactionServiceTest {
 
         assertTrue(actualMessage.contains(expectedMessage));
     }
-    
+
 
 }
