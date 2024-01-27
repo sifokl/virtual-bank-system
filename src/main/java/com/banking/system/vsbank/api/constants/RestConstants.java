@@ -6,4 +6,5 @@ public class RestConstants {
 
     /*  ***  PATHS *** */
     public static final String TRANSACTION_PATH = "/transaction";
+    public static final String OPERATION_PATH = "/operation";
 }
